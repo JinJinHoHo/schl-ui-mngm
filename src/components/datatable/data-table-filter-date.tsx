@@ -8,7 +8,7 @@ import {
     PopoverContent,
     PopoverTrigger,
 } from "@/components/ui/popover"
-import {useContext, useState} from "react";
+import {useContext} from "react";
 import {applyFilter, TableFilterContext} from "@/components/datatable/data-table";
 import {DataTableFilterProps} from "@/components/datatable/data-table-toolbar";
 import {Calendar} from "@/components/ui/calendar";

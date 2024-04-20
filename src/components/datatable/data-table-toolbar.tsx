@@ -4,7 +4,7 @@ import {Table} from "@tanstack/react-table"
 import {Button} from "@/components/ui/button"
 import {DataTableViewOptions} from "./data-table-view-options"
 
-import {useContext, useMemo} from "react";
+import React, {useContext} from "react";
 import {FilterStateType, TableFilterContext} from "@/components/datatable/data-table";
 
 interface DataTableToolbarProps<TData> {

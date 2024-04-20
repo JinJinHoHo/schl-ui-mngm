@@ -1,3 +1,4 @@
+import React from "react";
 
 export default function PageContext({title,desc, children,}: {
     title: string,

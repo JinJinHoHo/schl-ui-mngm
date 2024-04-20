@@ -82,7 +82,7 @@ export function DataTableFilterSelected(
                             return <CommandItem
                                 key={option.value}
                                 onSelect={() => {
-                                    let n = [];
+                                    let n: any[];
                                     if (!fv.includes(option.value)) {
                                         n = [...fv, option.value]
                                     } else {

@@ -3,6 +3,7 @@ import {Metadata} from "next"
 import {Separator} from "@/components/ui/separator"
 import {SidebarNav} from "./sidebar-nav"
 import {UserNav} from "@/app/cntnt/user-nav";
+import React from "react";
 
 export const metadata: Metadata = {
     title: "Forms",

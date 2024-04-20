@@ -1,16 +1,4 @@
-import Image from 'next/image'
 
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion"
-import {Tabs, TabsList, TabsTrigger, TabsContent} from "@/components/ui/tabs";
-import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card";
-import {Button} from "@/components/ui/button";
-import {Label} from "@/components/ui/label";
-import {Input} from "@/components/ui/input";
 import {
     Menubar,
     MenubarContent,
@@ -19,7 +7,6 @@ import {
     MenubarShortcut,
     MenubarTrigger
 } from "@/components/ui/menubar";
-import {Separator} from "@/components/ui/separator";
 import Link from "next/link";
 
 export default function TopMenubar() {
